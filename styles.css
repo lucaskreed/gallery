@@ -72,44 +72,6 @@ header {
   transition: background 0.3s ease, transform 0.3s ease;
 }
 
-.navbar-toggle {
-  display: none;
-  font-size: 2rem;
-  background: none;
-  border: none;
-  color: white;
-  cursor: pointer;
-}
-
-@media screen and (max-width: 768px) {
-  .navbar {
-      justify-content: space-between;
-  }
-
-  .navbar-links {
-      display: none;
-      flex-direction: column;
-      align-items: center;
-      width: 100%;
-      padding: 0;
-  }
-
-  .navbar-links.active {
-      display: flex;
-  }
-
-  .navbar-toggle {
-      display: block;
-  }
-
-  .navbar-links a {
-      font-size: 1.2rem;
-      padding: 15px 25px;
-      width: 100%;
-      text-align: center;
-  }
-}
-
 .sticky-notes-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
@@ -191,4 +153,3 @@ footer p {
     grid-template-columns: 1fr;
   }
 }
-
