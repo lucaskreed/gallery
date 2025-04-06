@@ -100,21 +100,3 @@ function handleScroll() {
     }, 500);
   }
   
-  document.getElementById('toggle-btn').addEventListener('click', function() {
-    var recentAchievements = document.getElementById('recent-achievements');
-    var oldAchievements = document.getElementById('old-achievements');
-    var header = document.getElementById('achievements-header');
-    var button = document.getElementById('toggle-btn');
-  
-    if (recentAchievements.style.display === "none") {
-      recentAchievements.style.display = "block";
-      oldAchievements.style.display = "none";
-      header.textContent = "Recent Achievements"; 
-      button.textContent = "View Older Achievements";  
-    } else {
-      recentAchievements.style.display = "none";
-      oldAchievements.style.display = "block";
-      header.textContent = "Old Achievements"; 
-      button.textContent = "View Recent Achievements";  
-    }
-  });
