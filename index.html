@@ -6,7 +6,6 @@
   <title>Lucas Reed - Gallery</title> 
   <link rel="stylesheet" href="styles.css">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
 </head> 
 <body>
   <header>
@@ -15,31 +14,34 @@
     </div>
   </header>  
 
+  <div class="search-bar">
+    <input type="text" id="search-input" class="search-input" placeholder="Search for a project..." />
+  </div>  
+
   <div class="sticky-notes-grid">
-    <a href="https://lucaskreed.github.io/linktree/" class="sticky-note">
+    <a href="https://lucaskreed.github.io/linktree/" class="sticky-note" data-project="LinkTree">
       <div class="section-header">LinkTree</div>
       <p>Check out all my links in one place.</p>
     </a>
     
-    <a href="https://lucaskreed.github.io/trackspikes/" class="sticky-note">
+    <a href="https://lucaskreed.github.io/trackspikes/" class="sticky-note" data-project="Track Spikes Protective Cover">
       <div class="section-header">Track Spikes Protective Cover</div>
       <p>Protects track spikes from wear, dullness, dirt, and bag damage.</p>
     </a>
 
-    <a href="https://lucaskreed.github.io/aicameratracking/" class="sticky-note">
+    <a href="https://lucaskreed.github.io/aicameratracking/" class="sticky-note" data-project="AI Camera Tracking System">
       <div class="section-header">AI Camera Tracking System</div>
       <p>Real-time object tracking with AI and Arduino control.</p>
-  </a>
-</div>
-    
+    </a>
   </div>
 
   <footer id="footer">
     <div class="footer-content">
-      <p>© 2024 Lucas Reed. All rights reserved.</p>
+      <p>© 2025 Lucas Reed. All rights reserved.</p>
     </div>
   </footer>
 
   <script src="scrollanimation.js"></script>
+  <script src="search.js"></script>
 </body>
 </html>
